@@ -1,0 +1,12 @@
+.results__link {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: calc(18px + 10 * (100vw / 1920));
+    font-weight: normal;
+    color: #84559C;
+    text-decoration: none;
+color: #84559C;
+text-align: center;
+margin-top: 30px;
+text-transform: uppercase;
+}

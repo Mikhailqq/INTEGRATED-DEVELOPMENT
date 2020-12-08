@@ -1,0 +1,12 @@
+.results-item__image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+@media screen and (max-width: 426px) {
+    .results-item__image {
+        width: 40%;
+    }
+}

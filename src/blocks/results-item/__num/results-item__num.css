@@ -1,0 +1,25 @@
+.results-item__num {
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: normal;
+    color: #B91827;
+    align-self: normal;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 426px) {
+    .results-item__num {
+        font-size: 30px;
+    }
+}
+
+
+
+/* @media screen and (max-width: 380px) {
+    .results-item__num {
+        font-size: 30px;
+    }
+} */

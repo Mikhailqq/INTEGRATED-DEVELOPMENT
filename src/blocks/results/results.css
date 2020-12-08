@@ -1,0 +1,7 @@
+@import url('./__image/results__image.css');
+@import url('./__container-grid/results__container-grid.css');
+@import url('./__link/results__link.css');
+
+.results {
+    margin-top: 90px;
+}

@@ -1,0 +1,11 @@
+.about-card__num {
+    font-family: 'Roboto';
+    font-size: 9rem;
+    font-weight: normal;
+    color: #B91827;
+    /* text-align: center; */
+    max-width: 120px;
+    margin: 0 auto;
+    /* margin-top: 70px;
+    margin-bottom: 70px; */
+}

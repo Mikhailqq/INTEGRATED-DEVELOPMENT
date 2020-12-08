@@ -1,0 +1,24 @@
+.about-card__text-container {
+    border-radius: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    min-height: 430px;
+}
+
+@media all and (max-width : 1024px) {
+    .about-card__text-container {
+        min-height: 405px;
+    }
+}
+
+@media all and (max-width : 768px) {
+    .about-card__text-container {
+        min-height: 350px;
+    }
+}
+
+@media all and (max-width : 425px) {
+    .about-card__text-container {
+        min-height: 250px;
+    }
+}

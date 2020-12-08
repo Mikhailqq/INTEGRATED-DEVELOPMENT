@@ -1,0 +1,27 @@
+.results__container-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    grid-gap: 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .results__container-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .results__container-grid {
+        grid-template-rows: 1fr 1fr 1fr;
+       grid-template-columns: none;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .results__container-grid {
+        grid-gap: 1rem
+    }
+}

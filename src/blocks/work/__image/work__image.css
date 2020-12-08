@@ -1,0 +1,12 @@
+@import url('./_second/work__image_second.css');
+.work__image {
+    width: 100%;
+    background-image: url(../../../images/main1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 340px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

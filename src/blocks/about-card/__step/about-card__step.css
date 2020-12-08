@@ -1,0 +1,25 @@
+.about-card__step {
+    font-family: 'Roboto';
+    font-size: 3rem;
+    font-weight: normal;
+    color: #3E3E41;
+    margin: 0 auto;
+}
+
+@media all and (max-width : 1024px) {
+    .about-card__step {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 850px) and (orientation: landscape) {
+    .about-card__step {
+        font-size: 1.5rem;
+    }
+}
+
+@media all and (max-width : 362px) {
+    .about-card__step {
+        font-size: 1.5rem;
+    }
+}

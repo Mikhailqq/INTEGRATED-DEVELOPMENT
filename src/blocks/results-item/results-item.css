@@ -1,0 +1,18 @@
+@import url('./__image/results-item__image.css');
+@import url('./__text/results-item__text.css');
+@import url('./__container-text/results-item__container-text.css');
+@import url('./__num/results-item__num.css');
+
+.results-item {
+    display: flex;
+    position: relative;
+    align-items: center;
+    min-height: 210px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 426px) {
+    .results-item {
+        min-height: 160px;
+    }
+}
